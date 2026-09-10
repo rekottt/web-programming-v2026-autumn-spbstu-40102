@@ -1,5 +1,7 @@
 export function findLongestPalindrome(str) {
-  if (str.length < 2) return str;
+  if (str.length < 2) {
+    return str;
+  }
 
   let start = 0;
   let maxLength = 1;
